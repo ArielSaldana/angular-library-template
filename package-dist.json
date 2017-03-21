@@ -2,7 +2,7 @@
 	"name": "angular-module-library",
 	"version": "1.0.0",
 	"description": "Wot!",
-	"main": "bundles/angular-module-library.umd.min.js",
+	"main": "bundles/angular-module-library.min.js",
 	"module": "index.js",
 	"typings": "index.d.ts",
 	"keywords": [

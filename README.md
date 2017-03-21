@@ -21,7 +21,7 @@ So now it's the time to either rename those files and the classes inside them to
 ## Now compile it!
 Once you have some nice amount of code put into your services, components, filters..., it's probably a good time to compile your module and taste the rewards for your hard work. These are the steps:
 * open the `tsconfig.json` file and include in the `paths` value **all the modules** your project depends on, as the final bundle won’t include them directly
-* open the `rollup.config.js` file and change the following values
+* open the `webpack.config.js` file and change the following values
 ```js
 export default {
 	// (...)
