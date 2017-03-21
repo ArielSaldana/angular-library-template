@@ -1,5 +1,6 @@
 var path = require("path");
 var webpack = require('webpack');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 if (process.argv[2])
     var PROD = true
@@ -41,6 +42,11 @@ module.exports = {
     },
 
     plugins: !PROD ? [
-        new webpack.optimize.UglifyJsPlugin({ minimize: true })
+        new webpack.optimize.UglifyJsPlugin({ minimize: true }),
+        new CopyWebpackPlugin([
+            {
+                from : path.join(__dirname,'./package-dist.json'), to : path.join(__dirname,'./dist/package.json')
+            }
+        ])
         ] : []
 };
