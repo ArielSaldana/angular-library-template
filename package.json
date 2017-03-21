@@ -1,6 +1,6 @@
 {
   "name": "angular-angular-module-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starting point for developing Angular modules and publishing them on NPM",
   "keywords": [
     "angular 2"
@@ -9,7 +9,6 @@
   "scripts": {
     "clean": "rimraf .tmp && rimraf dist",
     "transpile": "ngc",
-    "copy": "cpx './package-dist.json' dist && renamer --find 'package-dist.json' --replace 'package.json' ./dist/*",
     "build": "npm run clean && npm run transpile && node node_modules/.bin/webpack"
   },
   "license": "MIT",
@@ -23,10 +22,8 @@
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
+    "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.0.1",
-    "cpx": "^1.5.0",
-    "renamer": "^0.6.1",
-    "rimraf": "^2.5.4",
     "typescript": "~2.0.0",
     "uglify-js": "^2.7.5",
     "webpack": "^2.2.1"
