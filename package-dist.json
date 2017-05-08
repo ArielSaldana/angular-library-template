@@ -1,7 +1,7 @@
 {
 	"name": "angular-module-library",
-	"version": "1.0.5",
-	"description": "Wot!",
+	"version": "0",
+	"description": "Module Description",
 	"main": "bundles/angular-module-library.js",
 	"module": "index.js",
 	"typings": "index.d.ts",
