@@ -1,6 +1,6 @@
 {
 	"name": "angular-module-library",
-	"version": "0.0.5",
+	"version": "0.0.1",
 	"description": "Module Description",
 	"main": "bundles/angular-module-library.js",
 	"module": "index.js",

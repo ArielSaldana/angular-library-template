@@ -11,6 +11,10 @@
     "transpile": "ngc",
     "build": "npm run clean && npm run transpile && node node_modules/.bin/webpack"
   },
+  "author": {
+		"name": "Ariel Saldana",
+		"email": "hello@ariel.io"
+	},
   "license": "MIT",
   "bugs": {},
   "repository": {
