@@ -1,6 +1,6 @@
 {
 	"name": "angular-module-library",
-	"version": "0",
+	"version": "0.0.5",
 	"description": "Module Description",
 	"main": "bundles/angular-module-library.js",
 	"module": "index.js",
@@ -24,9 +24,9 @@
 		"url": ""
 	},
 	"peerDependencies": {
-		"@angular/core": "^2.4.0",
+		"@angular/core": "^4.1.1",
 		"reflect-metadata": "^0.1.8",
-		"rxjs": "^5.0.1",
-		"zone.js": "^0.7.2"
+		"rxjs": "^5.1.0",
+    	"zone.js": "^0.8.4"
 	}
 }

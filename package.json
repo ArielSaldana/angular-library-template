@@ -1,6 +1,6 @@
 {
   "name": "angular-angular-module-library",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Starting point for developing Angular modules and publishing them on NPM",
   "keywords": [
     "angular 2"
@@ -17,21 +17,24 @@
     "type": "git"
   },
   "devDependencies": {
-    "@angular/compiler": "^2.4.4",
-    "@angular/compiler-cli": "^2.4.4",
+    "@angular/compiler": "^4.1.1",
+    "@angular/compiler-cli": "^4.1.1",
+    "angular-template-loader": "0.0.2",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.0.1",
-    "typescript": "~2.0.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "~2.2.0",
     "uglify-js": "^2.7.5",
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "@angular/common": "^2.4.4",
-    "@angular/core": "^2.4.4",
-    "rxjs": "^5.0.3",
-    "zone.js": "^0.7.6"
+    "@angular/common": "^4.1.1",
+    "@angular/core": "^4.1.1",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
   }
 }

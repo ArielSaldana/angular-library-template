@@ -9,6 +9,7 @@ if (process.argv[2])
 module.exports = {
     entry: {
         'angular-module-library': path.join(__dirname, "/dist/index.js")
+        // 'angular-module-library': path.join(__dirname, "/src/index.ts")
     },
 
     output: {
